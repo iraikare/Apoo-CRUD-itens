@@ -9,7 +9,6 @@ namespace Apoo.Context
 {
     public class EFContext : DbContext
     {
-        internal object itens;
 
         public EFContext() : base("Asp_Net_MVC_CS")
         {
